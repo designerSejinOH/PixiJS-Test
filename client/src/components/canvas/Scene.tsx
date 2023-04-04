@@ -1,6 +1,5 @@
-// @ts-nocheck
-import { Stage, Sprite } from "@pixi/react";
-import * as PIXI from "pixi.js";
+//@ts-nocheck
+import { Stage, Container, Sprite, Text } from "@pixi/react";
 import React from "react";
 
 interface Draggable extends PIXI.DisplayObject {
@@ -36,9 +35,9 @@ export const Scene = ({ width, height }) => {
     <Stage width={width} height={height}>
       <Sprite
         image="./img/nike.png"
+        scale={0.15}
         x={width / 2}
         y={height / 2}
-        scale={0.1}
         anchor={0.5}
         interactive
         buttonMode
