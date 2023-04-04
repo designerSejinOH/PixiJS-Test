@@ -1,9 +1,8 @@
 {
   "index.tsx -> @/components/canvas/Scene": {
-    "id": 780,
+    "id": "index.tsx -> @/components/canvas/Scene",
     "files": [
-      "static/chunks/141.a88e23208cd7cc40.js",
-      "static/chunks/780.99cff77e71058d00.js"
+      "static/chunks/src_components_canvas_Scene_tsx.js"
     ]
   }
 }
