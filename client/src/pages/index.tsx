@@ -1,7 +1,9 @@
-import { BlurFilter } from "pixi.js";
-import { Stage, Container, Sprite, Text } from "@pixi/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Header } from "@/components/dom/Header";
+import dynamic from "next/dynamic";
+const Scene = dynamic(() =>
+  import("@/components/canvas/Scene").then((mod) => mod.Scene)
+);
 
 export default function Page(props) {
   const [windowSize, setWindowSize] = useState([
@@ -10,8 +12,6 @@ export default function Page(props) {
   ]);
   const width = windowSize[0];
   const height = windowSize[1];
-
-  const blurFilter = useMemo(() => new BlurFilter(4), []);
 
   useEffect(() => {
     const handleWindowResize = () => {
@@ -29,14 +29,7 @@ export default function Page(props) {
   return (
     <>
       <Header title="PIXI.JS" info="IT'S DEMO" />
-      <Stage width={width} height={height}>
-        <Sprite
-          image="https://pixijs.io/pixi-react/img/bunny.png"
-          x={width / 2}
-          y={height / 2}
-          anchor={{ x: 0.5, y: 0.5 }}
-        />
-      </Stage>
+      <Scene width={width} height={height} />
     </>
   );
 }

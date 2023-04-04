@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={};
+self.__REACT_LOADABLE_MANIFEST={"index.tsx -> @/components/canvas/Scene":{id:780,files:["static/chunks/141.a88e23208cd7cc40.js","static/chunks/780.99cff77e71058d00.js"]}};

@@ -5,24 +5,33 @@ exports.id = 405;
 exports.ids = [405];
 exports.modules = {
 
-/***/ 641:
+/***/ 777:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "h": () => (/* binding */ Header)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Page),
+  "getStaticProps": () => (/* binding */ getStaticProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(689);
+;// CONCATENATED MODULE: ./src/components/dom/Header.tsx
 
 const Header = ({ title , info  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: "w-full fixed h-20 border border-black bg-white bg-opacity-50 px-10 rounded-full flex flex-row justify-between items-center",
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                 className: "text-2xl font-bold",
                 children: title
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                 className: "",
                 children: info
             })
@@ -30,42 +39,29 @@ const Header = ({ title , info  })=>{
     });
 };
 
-
-/***/ }),
-
-/***/ 970:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Page),
-/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var pixi_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(188);
-/* harmony import */ var _pixi_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(254);
-/* harmony import */ var _pixi_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pixi_react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_dom_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(641);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pixi_js__WEBPACK_IMPORTED_MODULE_1__]);
-pixi_js__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+// EXTERNAL MODULE: ./node_modules/next/dynamic.js
+var dynamic = __webpack_require__(152);
+var dynamic_default = /*#__PURE__*/__webpack_require__.n(dynamic);
+;// CONCATENATED MODULE: ./src/pages/index.tsx
 
 
 
 
-
+const Scene = dynamic_default()(()=>__webpack_require__.e(/* import() */ 780).then(__webpack_require__.bind(__webpack_require__, 780)).then((mod)=>mod.Scene), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "@/components/canvas/Scene"
+        ]
+    }
+});
 function Page(props) {
-    const [windowSize, setWindowSize] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)([
+    const [windowSize, setWindowSize] = (0,external_react_.useState)([
          false ? 0 : null,
          false ? 0 : null
     ]);
     const width = windowSize[0];
     const height = windowSize[1];
-    const blurFilter = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(()=>new pixi_js__WEBPACK_IMPORTED_MODULE_1__.BlurFilter(4), []);
-    (0,react__WEBPACK_IMPORTED_MODULE_3__.useEffect)(()=>{
+    (0,external_react_.useEffect)(()=>{
         const handleWindowResize = ()=>{
             setWindowSize([
                 window.innerWidth,
@@ -78,24 +74,15 @@ function Page(props) {
         };
     });
     console.log(width, height);
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_dom_Header__WEBPACK_IMPORTED_MODULE_4__/* .Header */ .h, {
+            /*#__PURE__*/ jsx_runtime_.jsx(Header, {
                 title: "PIXI.JS",
                 info: "IT'S DEMO"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_pixi_react__WEBPACK_IMPORTED_MODULE_2__.Stage, {
+            /*#__PURE__*/ jsx_runtime_.jsx(Scene, {
                 width: width,
-                height: height,
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_pixi_react__WEBPACK_IMPORTED_MODULE_2__.Sprite, {
-                    image: "https://pixijs.io/pixi-react/img/bunny.png",
-                    x: width / 2,
-                    y: height / 2,
-                    anchor: {
-                        x: 0.5,
-                        y: 0.5
-                    }
-                })
+                height: height
             })
         ]
     });
@@ -108,8 +95,6 @@ async function getStaticProps() {
     };
 }
 
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
@@ -117,6 +102,13 @@ __webpack_async_result__();
 /***/ ((module) => {
 
 module.exports = require("@pixi/react");
+
+/***/ }),
+
+/***/ 832:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/loadable.js");
 
 /***/ }),
 
@@ -132,13 +124,6 @@ module.exports = require("react");
 
 module.exports = require("react/jsx-runtime");
 
-/***/ }),
-
-/***/ 188:
-/***/ ((module) => {
-
-module.exports = import("pixi.js");;
-
 /***/ })
 
 };
@@ -148,7 +133,7 @@ module.exports = import("pixi.js");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(970));
+var __webpack_exports__ = __webpack_require__.X(0, [152], () => (__webpack_exec__(777)));
 module.exports = __webpack_exports__;
 
 })();

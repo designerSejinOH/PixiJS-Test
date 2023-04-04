@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[780],{780:function(e,n,i){i.r(n),i.d(n,{Scene:function(){return c}});var t=i(5893),r=i(5141);let c=e=>{let{width:n,height:i}=e;return(0,t.jsx)(r.Hf,{width:n,height:i,children:(0,t.jsx)(r.jy,{image:"https://pixijs.io/pixi-react/img/bunny.png",x:n/2,y:i/2,anchor:{x:.5,y:.5}})})}}}]);
