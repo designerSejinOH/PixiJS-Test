@@ -1,10 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
-  "/en/500": "pages/en/500.html",
-  "/jp/500": "pages/jp/500.html",
-  "/en/404": "pages/en/404.html",
-  "/jp/404": "pages/jp/404.html"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js"
 }
