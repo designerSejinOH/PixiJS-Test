@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Header } from "@/components/dom/Header";
 import dynamic from "next/dynamic";
 const Scene = dynamic(() =>
