@@ -51,11 +51,11 @@ export const Scene = ({ width, height }) => {
     >
       <Filters
         outline={{
-          color: 0x000000,
-          thickness: 2,
+          color: 0xff00ff,
+          thickness: 10,
           // quality: 1,
           alpha: 1,
-          resolution: 1,
+          resolution: 2,
         }}
       >
         <Sprite
@@ -71,18 +71,28 @@ export const Scene = ({ width, height }) => {
           pointermove={onDragMove}
         />
       </Filters>
-      <Sprite
-        image="./img/tv.png"
-        x={width / 3}
-        y={(height / 3) * 2}
-        scale={0.09}
-        anchor={0.5}
-        interactive={true}
-        pointerdown={onDragStart}
-        pointerup={onDragEnd}
-        pointerupoutside={onDragEnd}
-        pointermove={onDragMove}
-      />
+      <Filters
+        outline={{
+          color: 0x0000ff,
+          thickness: 4,
+          // quality: 1,
+          alpha: 1,
+          resolution: 2,
+        }}
+      >
+        <Sprite
+          image="./img/tv.png"
+          x={width / 3}
+          y={(height / 3) * 2}
+          scale={0.09}
+          anchor={0.5}
+          interactive={true}
+          pointerdown={onDragStart}
+          pointerup={onDragEnd}
+          pointerupoutside={onDragEnd}
+          pointermove={onDragMove}
+        />
+      </Filters>
       <Sprite
         image="./img/smile.png"
         x={width / 3}

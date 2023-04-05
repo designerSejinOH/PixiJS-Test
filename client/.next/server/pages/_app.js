@@ -1,75 +1,214 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./src/components/dom/Layout.tsx":
-/*!***************************************!*\
-  !*** ./src/components/dom/Layout.tsx ***!
-  \***************************************/
+/***/ 888:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Layout = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.forwardRef)(({ children , ...props }, ref)=>{\n    const localRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useImperativeHandle)(ref, ()=>localRef.current);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        ...props,\n        ref: localRef,\n        className: \"flex flex-col w-screen h-full\",\n        children: children\n    }, void 0, false, {\n        fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/components/dom/Layout.tsx\",\n        lineNumber: 18,\n        columnNumber: 7\n    }, undefined);\n});\nLayout.displayName = \"Layout\";\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9kb20vTGF5b3V0LnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBQWdFO0FBRWhFLE1BQU1HLHVCQUFTRixpREFBVUEsQ0FDdkIsQ0FDRSxFQUNFRyxTQUFRLEVBQ1IsR0FBR0MsT0FHSixFQUNEQyxNQUNHO0lBQ0gsTUFBTUMsV0FBV1AsNkNBQU1BO0lBRXZCRSwwREFBbUJBLENBQUNJLEtBQUssSUFBTUMsU0FBU0MsT0FBTztJQUUvQyxxQkFDRSw4REFBQ0M7UUFBSyxHQUFHSixLQUFLO1FBQUVDLEtBQUtDO1FBQVVHLFdBQVU7a0JBQ3RDTjs7Ozs7O0FBR1A7QUFFRkQsT0FBT1EsV0FBVyxHQUFHO0FBRXJCLGlFQUFlUixNQUFNQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmVhY3QtdGhyZWUtbmV4dC8uL3NyYy9jb21wb25lbnRzL2RvbS9MYXlvdXQudHN4P2RkNWUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlUmVmLCBmb3J3YXJkUmVmLCB1c2VJbXBlcmF0aXZlSGFuZGxlIH0gZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IExheW91dCA9IGZvcndhcmRSZWYoXG4gIChcbiAgICB7XG4gICAgICBjaGlsZHJlbixcbiAgICAgIC4uLnByb3BzXG4gICAgfToge1xuICAgICAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTtcbiAgICB9LFxuICAgIHJlZlxuICApID0+IHtcbiAgICBjb25zdCBsb2NhbFJlZiA9IHVzZVJlZigpO1xuXG4gICAgdXNlSW1wZXJhdGl2ZUhhbmRsZShyZWYsICgpID0+IGxvY2FsUmVmLmN1cnJlbnQpO1xuXG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXYgey4uLnByb3BzfSByZWY9e2xvY2FsUmVmfSBjbGFzc05hbWU9XCJmbGV4IGZsZXgtY29sIHctc2NyZWVuIGgtZnVsbFwiPlxuICAgICAgICB7Y2hpbGRyZW59XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG4pO1xuTGF5b3V0LmRpc3BsYXlOYW1lID0gXCJMYXlvdXRcIjtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl0sIm5hbWVzIjpbInVzZVJlZiIsImZvcndhcmRSZWYiLCJ1c2VJbXBlcmF0aXZlSGFuZGxlIiwiTGF5b3V0IiwiY2hpbGRyZW4iLCJwcm9wcyIsInJlZiIsImxvY2FsUmVmIiwiY3VycmVudCIsImRpdiIsImNsYXNzTmFtZSIsImRpc3BsYXlOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/dom/Layout.tsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ App)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(689);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+;// CONCATENATED MODULE: ./src/config.tsx
+
+
+const titleDefault = "SEJIN OH";
+const url = "https://designersejinoh.github.io";
+const description = "PIXI JS";
+const author = "Author";
+function Header({ title =titleDefault  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                charSet: "utf-8"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "language",
+                content: "english"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                httpEquiv: "content-type",
+                content: "text/html"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "author",
+                content: author
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "designer",
+                content: author
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "publisher",
+                content: author
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                children: title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "description",
+                content: description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "keywords",
+                content: "Designer, Graphic Designer, Interaction, Interactive Designer, UI, UX, User Interface, User Experience, Web, Web Designer, Web Development, Web Developer, Front End, Front End Developer, Front End Development, Frontend, Frontend Developer, Frontend Development, React, ReactJS, React.js, React.js Developer, React.js Development, NextJS, Next.js, Next.js Developer, Next.js Development, NextJS Developer, NextJS Development, ThreeJS, Three.js, Three.js Developer, Three.js Development, ThreeJS Developer, ThreeJS Development, ThreeJS Starter, Three.js Starter, Three.js Starter Kit, ThreeJS Starter Kit, React Three Fiber, React Three Fiber Starter, React Three Fiber Starter Kit"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "robots",
+                content: "index,follow"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "distribution",
+                content: "web"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "og:title",
+                content: title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "og:type",
+                content: "site"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "og:url",
+                content: url
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "og:image",
+                content: "/icons/share.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "og:site_name",
+                content: title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "og:description",
+                content: description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "apple-touch-icon",
+                href: "/icons/apple-touch-icon.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "apple-touch-icon",
+                sizes: "16x16",
+                href: "/icons/favicon-16x16.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "apple-touch-icon",
+                sizes: "32x32",
+                href: "/icons/favicon-32x32.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "apple-touch-icon",
+                sizes: "180x180",
+                href: "/icons/apple-touch-icon.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "manifest",
+                href: "/manifest.json"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "mask-icon",
+                color: "#000000",
+                href: "/icons/safari-pinned-tab.svg"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "apple-touch-startup-image",
+                href: "/startup.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "viewport",
+                content: "width=device-width, minimum-scale=1, initial-scale=1.0"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "theme-color",
+                content: "#000"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "shortcut icon",
+                href: "/icons/favicon.ico"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "twitter:card",
+                content: "summary"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "twitter:site",
+                content: "@onirenaud"
+            })
+        ]
+    });
+}
+
+// EXTERNAL MODULE: ./src/styles/index.css
+var styles = __webpack_require__(729);
+;// CONCATENATED MODULE: ./src/components/dom/Layout.tsx
+
+
+const Layout = /*#__PURE__*/ (0,external_react_.forwardRef)(({ children , ...props }, ref)=>{
+    const localRef = (0,external_react_.useRef)();
+    (0,external_react_.useImperativeHandle)(ref, ()=>localRef.current);
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        ...props,
+        ref: localRef,
+        className: "flex flex-col w-screen h-full",
+        children: children
+    });
+});
+Layout.displayName = "Layout";
+/* harmony default export */ const dom_Layout = (Layout);
+
+;// CONCATENATED MODULE: ./src/pages/_app.tsx
+
+
+
+
+
+function App({ Component , pageProps ={
+    title: "SEJIN OH"
+}  }) {
+    const ref = (0,external_react_.useRef)();
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(Header, {
+                title: pageProps.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(dom_Layout, {
+                ref: ref,
+                children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                    ...pageProps
+                })
+            })
+        ]
+    });
+}
+
 
 /***/ }),
 
-/***/ "./src/config.tsx":
-/*!************************!*\
-  !*** ./src/config.tsx ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst titleDefault = \"SEJIN OH\";\nconst url = \"https://designersejinoh.github.io\";\nconst description = \"PIXI JS\";\nconst author = \"Author\";\nfunction Header({ title =titleDefault  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                charSet: \"utf-8\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"language\",\n                content: \"english\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                httpEquiv: \"content-type\",\n                content: \"text/html\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"author\",\n                content: author\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"designer\",\n                content: author\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"publisher\",\n                content: author\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                children: title\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 20,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"description\",\n                content: description\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"keywords\",\n                content: \"Designer, Graphic Designer, Interaction, Interactive Designer, UI, UX, User Interface, User Experience, Web, Web Designer, Web Development, Web Developer, Front End, Front End Developer, Front End Development, Frontend, Frontend Developer, Frontend Development, React, ReactJS, React.js, React.js Developer, React.js Development, NextJS, Next.js, Next.js Developer, Next.js Development, NextJS Developer, NextJS Development, ThreeJS, Three.js, Three.js Developer, Three.js Development, ThreeJS Developer, ThreeJS Development, ThreeJS Starter, Three.js Starter, Three.js Starter Kit, ThreeJS Starter Kit, React Three Fiber, React Three Fiber Starter, React Three Fiber Starter Kit\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 22,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"robots\",\n                content: \"index,follow\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"distribution\",\n                content: \"web\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"og:title\",\n                content: title\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 31,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"og:type\",\n                content: \"site\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 32,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"og:url\",\n                content: url\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 33,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"og:image\",\n                content: \"/icons/share.png\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 34,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"og:site_name\",\n                content: title\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 35,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"og:description\",\n                content: description\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 36,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"apple-touch-icon\",\n                href: \"/icons/apple-touch-icon.png\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 38,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"apple-touch-icon\",\n                sizes: \"16x16\",\n                href: \"/icons/favicon-16x16.png\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 39,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"apple-touch-icon\",\n                sizes: \"32x32\",\n                href: \"/icons/favicon-32x32.png\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 44,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"apple-touch-icon\",\n                sizes: \"180x180\",\n                href: \"/icons/apple-touch-icon.png\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 49,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"manifest\",\n                href: \"/manifest.json\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 54,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"mask-icon\",\n                color: \"#000000\",\n                href: \"/icons/safari-pinned-tab.svg\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 55,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"apple-touch-startup-image\",\n                href: \"/startup.png\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 60,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"viewport\",\n                content: \"width=device-width, minimum-scale=1, initial-scale=1.0\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 65,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"theme-color\",\n                content: \"#000\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 69,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"shortcut icon\",\n                href: \"/icons/favicon.ico\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 70,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"twitter:card\",\n                content: \"summary\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 76,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"twitter:site\",\n                content: \"@onirenaud\"\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n                lineNumber: 77,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/config.tsx\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29uZmlnLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBQTZCO0FBRTdCLE1BQU1DLGVBQWU7QUFDckIsTUFBTUMsTUFBTTtBQUNaLE1BQU1DLGNBQWM7QUFDcEIsTUFBTUMsU0FBUztBQUVBLFNBQVNDLE9BQU8sRUFBRUMsT0FBUUwsYUFBWSxFQUFFLEVBQUU7SUFDdkQscUJBQ0UsOERBQUNELGtEQUFJQTs7MEJBRUgsOERBQUNPO2dCQUFLQyxTQUFROzs7Ozs7MEJBQ2QsOERBQUNEO2dCQUFLRSxNQUFLO2dCQUFXQyxTQUFROzs7Ozs7MEJBQzlCLDhEQUFDSDtnQkFBS0ksV0FBVTtnQkFBZUQsU0FBUTs7Ozs7OzBCQUN2Qyw4REFBQ0g7Z0JBQUtFLE1BQUs7Z0JBQVNDLFNBQVNOOzs7Ozs7MEJBQzdCLDhEQUFDRztnQkFBS0UsTUFBSztnQkFBV0MsU0FBU047Ozs7OzswQkFDL0IsOERBQUNHO2dCQUFLRSxNQUFLO2dCQUFZQyxTQUFTTjs7Ozs7OzBCQUdoQyw4REFBQ0U7MEJBQU9BOzs7Ozs7MEJBQ1IsOERBQUNDO2dCQUFLRSxNQUFLO2dCQUFjQyxTQUFTUDs7Ozs7OzBCQUNsQyw4REFBQ0k7Z0JBQ0NFLE1BQUs7Z0JBQ0xDLFNBQVE7Ozs7OzswQkFFViw4REFBQ0g7Z0JBQUtFLE1BQUs7Z0JBQVNDLFNBQVE7Ozs7OzswQkFDNUIsOERBQUNIO2dCQUFLRSxNQUFLO2dCQUFlQyxTQUFROzs7Ozs7MEJBSWxDLDhEQUFDSDtnQkFBS0UsTUFBSztnQkFBV0MsU0FBU0o7Ozs7OzswQkFDL0IsOERBQUNDO2dCQUFLRSxNQUFLO2dCQUFVQyxTQUFROzs7Ozs7MEJBQzdCLDhEQUFDSDtnQkFBS0UsTUFBSztnQkFBU0MsU0FBU1I7Ozs7OzswQkFDN0IsOERBQUNLO2dCQUFLRSxNQUFLO2dCQUFXQyxTQUFTOzs7Ozs7MEJBQy9CLDhEQUFDSDtnQkFBS0UsTUFBSztnQkFBZUMsU0FBU0o7Ozs7OzswQkFDbkMsOERBQUNDO2dCQUFLRSxNQUFLO2dCQUFpQkMsU0FBU1A7Ozs7OzswQkFFckMsOERBQUNTO2dCQUFLQyxLQUFJO2dCQUFtQkMsTUFBSzs7Ozs7OzBCQUNsQyw4REFBQ0Y7Z0JBQ0NDLEtBQUk7Z0JBQ0pFLE9BQU07Z0JBQ05ELE1BQUs7Ozs7OzswQkFFUCw4REFBQ0Y7Z0JBQ0NDLEtBQUk7Z0JBQ0pFLE9BQU07Z0JBQ05ELE1BQUs7Ozs7OzswQkFFUCw4REFBQ0Y7Z0JBQ0NDLEtBQUk7Z0JBQ0pFLE9BQU07Z0JBQ05ELE1BQUs7Ozs7OzswQkFFUCw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQVdDLE1BQUs7Ozs7OzswQkFDMUIsOERBQUNGO2dCQUNDQyxLQUFJO2dCQUNKRyxPQUFNO2dCQUNORixNQUFLOzs7Ozs7MEJBRVAsOERBQUNGO2dCQUFLQyxLQUFJO2dCQUE0QkMsTUFBSzs7Ozs7OzBCQUszQyw4REFBQ1A7Z0JBQ0NFLE1BQUs7Z0JBQ0xDLFNBQVE7Ozs7OzswQkFFViw4REFBQ0g7Z0JBQUtFLE1BQUs7Z0JBQWNDLFNBQVE7Ozs7OzswQkFDakMsOERBQUNFO2dCQUFLQyxLQUFJO2dCQUFnQkMsTUFBSzs7Ozs7OzBCQU0vQiw4REFBQ1A7Z0JBQUtFLE1BQUs7Z0JBQWVDLFNBQVE7Ozs7OzswQkFDbEMsOERBQUNIO2dCQUFLRSxNQUFLO2dCQUFlQyxTQUFROzs7Ozs7Ozs7Ozs7QUFHeEMsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3JlYWN0LXRocmVlLW5leHQvLi9zcmMvY29uZmlnLnRzeD8zZWRlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcblxuY29uc3QgdGl0bGVEZWZhdWx0ID0gXCJTRUpJTiBPSFwiO1xuY29uc3QgdXJsID0gXCJodHRwczovL2Rlc2lnbmVyc2VqaW5vaC5naXRodWIuaW9cIjtcbmNvbnN0IGRlc2NyaXB0aW9uID0gXCJQSVhJIEpTXCI7XG5jb25zdCBhdXRob3IgPSBcIkF1dGhvclwiO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIZWFkZXIoeyB0aXRsZSA9IHRpdGxlRGVmYXVsdCB9KSB7XG4gIHJldHVybiAoXG4gICAgPEhlYWQ+XG4gICAgICB7LyogUmVjb21tZW5kZWQgTWV0YSBUYWdzICovfVxuICAgICAgPG1ldGEgY2hhclNldD1cInV0Zi04XCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJsYW5ndWFnZVwiIGNvbnRlbnQ9XCJlbmdsaXNoXCIgLz5cbiAgICAgIDxtZXRhIGh0dHBFcXVpdj1cImNvbnRlbnQtdHlwZVwiIGNvbnRlbnQ9XCJ0ZXh0L2h0bWxcIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cImF1dGhvclwiIGNvbnRlbnQ9e2F1dGhvcn0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNpZ25lclwiIGNvbnRlbnQ9e2F1dGhvcn0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJwdWJsaXNoZXJcIiBjb250ZW50PXthdXRob3J9IC8+XG5cbiAgICAgIHsvKiBTZWFyY2ggRW5naW5lIE9wdGltaXphdGlvbiBNZXRhIFRhZ3MgKi99XG4gICAgICA8dGl0bGU+e3RpdGxlfTwvdGl0bGU+XG4gICAgICA8bWV0YSBuYW1lPVwiZGVzY3JpcHRpb25cIiBjb250ZW50PXtkZXNjcmlwdGlvbn0gLz5cbiAgICAgIDxtZXRhXG4gICAgICAgIG5hbWU9XCJrZXl3b3Jkc1wiXG4gICAgICAgIGNvbnRlbnQ9XCJEZXNpZ25lciwgR3JhcGhpYyBEZXNpZ25lciwgSW50ZXJhY3Rpb24sIEludGVyYWN0aXZlIERlc2lnbmVyLCBVSSwgVVgsIFVzZXIgSW50ZXJmYWNlLCBVc2VyIEV4cGVyaWVuY2UsIFdlYiwgV2ViIERlc2lnbmVyLCBXZWIgRGV2ZWxvcG1lbnQsIFdlYiBEZXZlbG9wZXIsIEZyb250IEVuZCwgRnJvbnQgRW5kIERldmVsb3BlciwgRnJvbnQgRW5kIERldmVsb3BtZW50LCBGcm9udGVuZCwgRnJvbnRlbmQgRGV2ZWxvcGVyLCBGcm9udGVuZCBEZXZlbG9wbWVudCwgUmVhY3QsIFJlYWN0SlMsIFJlYWN0LmpzLCBSZWFjdC5qcyBEZXZlbG9wZXIsIFJlYWN0LmpzIERldmVsb3BtZW50LCBOZXh0SlMsIE5leHQuanMsIE5leHQuanMgRGV2ZWxvcGVyLCBOZXh0LmpzIERldmVsb3BtZW50LCBOZXh0SlMgRGV2ZWxvcGVyLCBOZXh0SlMgRGV2ZWxvcG1lbnQsIFRocmVlSlMsIFRocmVlLmpzLCBUaHJlZS5qcyBEZXZlbG9wZXIsIFRocmVlLmpzIERldmVsb3BtZW50LCBUaHJlZUpTIERldmVsb3BlciwgVGhyZWVKUyBEZXZlbG9wbWVudCwgVGhyZWVKUyBTdGFydGVyLCBUaHJlZS5qcyBTdGFydGVyLCBUaHJlZS5qcyBTdGFydGVyIEtpdCwgVGhyZWVKUyBTdGFydGVyIEtpdCwgUmVhY3QgVGhyZWUgRmliZXIsIFJlYWN0IFRocmVlIEZpYmVyIFN0YXJ0ZXIsIFJlYWN0IFRocmVlIEZpYmVyIFN0YXJ0ZXIgS2l0XCJcbiAgICAgIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cImluZGV4LGZvbGxvd1wiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwiZGlzdHJpYnV0aW9uXCIgY29udGVudD1cIndlYlwiIC8+XG4gICAgICB7LyogXG4gICAgICBGYWNlYm9vayBPcGVuIEdyYXBoIG1ldGEgdGFnc1xuICAgICAgICBkb2N1bWVudGF0aW9uOiBodHRwczovL2RldmVsb3BlcnMuZmFjZWJvb2suY29tL2RvY3Mvc2hhcmluZy9vcGVuZ3JhcGggKi99XG4gICAgICA8bWV0YSBuYW1lPVwib2c6dGl0bGVcIiBjb250ZW50PXt0aXRsZX0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJvZzp0eXBlXCIgY29udGVudD1cInNpdGVcIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cIm9nOnVybFwiIGNvbnRlbnQ9e3VybH0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJvZzppbWFnZVwiIGNvbnRlbnQ9e1wiL2ljb25zL3NoYXJlLnBuZ1wifSAvPlxuICAgICAgPG1ldGEgbmFtZT1cIm9nOnNpdGVfbmFtZVwiIGNvbnRlbnQ9e3RpdGxlfSAvPlxuICAgICAgPG1ldGEgbmFtZT1cIm9nOmRlc2NyaXB0aW9uXCIgY29udGVudD17ZGVzY3JpcHRpb259IC8+XG5cbiAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBocmVmPVwiL2ljb25zL2FwcGxlLXRvdWNoLWljb24ucG5nXCIgLz5cbiAgICAgIDxsaW5rXG4gICAgICAgIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIlxuICAgICAgICBzaXplcz1cIjE2eDE2XCJcbiAgICAgICAgaHJlZj1cIi9pY29ucy9mYXZpY29uLTE2eDE2LnBuZ1wiXG4gICAgICAvPlxuICAgICAgPGxpbmtcbiAgICAgICAgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiXG4gICAgICAgIHNpemVzPVwiMzJ4MzJcIlxuICAgICAgICBocmVmPVwiL2ljb25zL2Zhdmljb24tMzJ4MzIucG5nXCJcbiAgICAgIC8+XG4gICAgICA8bGlua1xuICAgICAgICByZWw9XCJhcHBsZS10b3VjaC1pY29uXCJcbiAgICAgICAgc2l6ZXM9XCIxODB4MTgwXCJcbiAgICAgICAgaHJlZj1cIi9pY29ucy9hcHBsZS10b3VjaC1pY29uLnBuZ1wiXG4gICAgICAvPlxuICAgICAgPGxpbmsgcmVsPVwibWFuaWZlc3RcIiBocmVmPVwiL21hbmlmZXN0Lmpzb25cIiAvPlxuICAgICAgPGxpbmtcbiAgICAgICAgcmVsPVwibWFzay1pY29uXCJcbiAgICAgICAgY29sb3I9XCIjMDAwMDAwXCJcbiAgICAgICAgaHJlZj1cIi9pY29ucy9zYWZhcmktcGlubmVkLXRhYi5zdmdcIlxuICAgICAgLz5cbiAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLXN0YXJ0dXAtaW1hZ2VcIiBocmVmPVwiL3N0YXJ0dXAucG5nXCIgLz5cblxuICAgICAgey8qIE1ldGEgVGFncyBmb3IgSFRNTCBwYWdlcyBvbiBNb2JpbGUgKi99XG4gICAgICB7LyogPG1ldGEgbmFtZT1cImZvcm1hdC1kZXRlY3Rpb25cIiBjb250ZW50PVwidGVsZXBob25lPXllc1wiLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cIkhhbmRoZWxkRnJpZW5kbHlcIiBjb250ZW50PVwidHJ1ZVwiLz4gICovfVxuICAgICAgPG1ldGFcbiAgICAgICAgbmFtZT1cInZpZXdwb3J0XCJcbiAgICAgICAgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgbWluaW11bS1zY2FsZT0xLCBpbml0aWFsLXNjYWxlPTEuMFwiXG4gICAgICAvPlxuICAgICAgPG1ldGEgbmFtZT1cInRoZW1lLWNvbG9yXCIgY29udGVudD1cIiMwMDBcIiAvPlxuICAgICAgPGxpbmsgcmVsPVwic2hvcnRjdXQgaWNvblwiIGhyZWY9XCIvaWNvbnMvZmF2aWNvbi5pY29cIiAvPlxuXG4gICAgICB7LyogXG4gICAgICBUd2l0dGVyIFN1bW1hcnkgY2FyZFxuICAgICAgICBkb2N1bWVudGF0aW9uOiBodHRwczovL2Rldi50d2l0dGVyLmNvbS9jYXJkcy9nZXR0aW5nLXN0YXJ0ZWRcbiAgICAgICAgQmUgc3VyZSB2YWxpZGF0ZSB5b3VyIFR3aXR0ZXIgY2FyZCBtYXJrdXAgb24gdGhlIGRvY3VtZW50YXRpb24gc2l0ZS4gKi99XG4gICAgICA8bWV0YSBuYW1lPVwidHdpdHRlcjpjYXJkXCIgY29udGVudD1cInN1bW1hcnlcIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cInR3aXR0ZXI6c2l0ZVwiIGNvbnRlbnQ9XCJAb25pcmVuYXVkXCIgLz5cbiAgICA8L0hlYWQ+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiSGVhZCIsInRpdGxlRGVmYXVsdCIsInVybCIsImRlc2NyaXB0aW9uIiwiYXV0aG9yIiwiSGVhZGVyIiwidGl0bGUiLCJtZXRhIiwiY2hhclNldCIsIm5hbWUiLCJjb250ZW50IiwiaHR0cEVxdWl2IiwibGluayIsInJlbCIsImhyZWYiLCJzaXplcyIsImNvbG9yIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/config.tsx\n");
-
-/***/ }),
-
-/***/ "./src/pages/_app.tsx":
-/*!****************************!*\
-  !*** ./src/pages/_app.tsx ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/config */ \"./src/config.tsx\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/styles/index.css */ \"./src/styles/index.css\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _components_dom_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/components/dom/Layout */ \"./src/components/dom/Layout.tsx\");\n\n\n\n\n\nfunction App({ Component , pageProps ={\n    title: \"SEJIN OH\"\n}  }) {\n    const ref = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_config__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                title: pageProps.title\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/pages/_app.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_dom_Layout__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                ref: ref,\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                    ...pageProps\n                }, void 0, false, {\n                    fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/pages/_app.tsx\",\n                    lineNumber: 13,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/sejinoh/Documents/GitHub/PixiJS-Test/client/src/pages/_app.tsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2FwcC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUE7QUFBK0I7QUFFRDtBQUNGO0FBQ2lCO0FBRTlCLFNBQVNHLElBQUksRUFBRUMsVUFBUyxFQUFFQyxXQUFZO0lBQUVDLE9BQU87QUFBVyxFQUFDLEVBQUUsRUFBRTtJQUM1RSxNQUFNQyxNQUFNUCw2Q0FBTUE7SUFDbEIscUJBQ0U7OzBCQUNFLDhEQUFDQywrQ0FBTUE7Z0JBQUNLLE9BQU9ELFVBQVVDLEtBQUs7Ozs7OzswQkFDOUIsOERBQUNKLDhEQUFNQTtnQkFBQ0ssS0FBS0E7MEJBQ1gsNEVBQUNIO29CQUFXLEdBQUdDLFNBQVM7Ozs7Ozs7Ozs7Ozs7QUFJaEMsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3JlYWN0LXRocmVlLW5leHQvLi9zcmMvcGFnZXMvX2FwcC50c3g/ZjlkNiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VSZWYgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBkeW5hbWljIGZyb20gXCJuZXh0L2R5bmFtaWNcIjtcbmltcG9ydCBIZWFkZXIgZnJvbSBcIkAvY29uZmlnXCI7XG5pbXBvcnQgXCJAL3N0eWxlcy9pbmRleC5jc3NcIjtcbmltcG9ydCBMYXlvdXQgZnJvbSBcIkAvY29tcG9uZW50cy9kb20vTGF5b3V0XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzID0geyB0aXRsZTogXCJTRUpJTiBPSFwiIH0gfSkge1xuICBjb25zdCByZWYgPSB1c2VSZWYoKTtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPEhlYWRlciB0aXRsZT17cGFnZVByb3BzLnRpdGxlfSAvPlxuICAgICAgPExheW91dCByZWY9e3JlZn0+XG4gICAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICAgIDwvTGF5b3V0PlxuICAgIDwvPlxuICApO1xufVxuIl0sIm5hbWVzIjpbInVzZVJlZiIsIkhlYWRlciIsIkxheW91dCIsIkFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsInRpdGxlIiwicmVmIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/_app.tsx\n");
-
-/***/ }),
-
-/***/ "./src/styles/index.css":
-/*!******************************!*\
-  !*** ./src/styles/index.css ***!
-  \******************************/
+/***/ 729:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
 "use strict";
@@ -77,14 +216,11 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -95,7 +231,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./src/pages/_app.tsx"));
+var __webpack_exports__ = (__webpack_exec__(888));
 module.exports = __webpack_exports__;
 
 })();
