@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import * as PIXI from "pixi.js";
 
 interface Draggable extends PIXI.DisplayObject {
+  //@ts-ignore
   data: PIXI.InteractionData | null;
   dragging: boolean;
 }
@@ -16,6 +17,7 @@ export const Scene = ({ width, height }) => {
     sprite.dragging = true;
   };
 
+  //@ts-ignore
   const onDragEnd = (event: PIXI.InteractionEvent) => {
     const sprite = event.currentTarget as Draggable;
     sprite.alpha = 1;
@@ -23,6 +25,7 @@ export const Scene = ({ width, height }) => {
     sprite.data = null;
   };
 
+  //@ts-ignore
   const onDragMove = (event: PIXI.InteractionEvent) => {
     const sprite = event.currentTarget as Draggable;
     if (sprite.dragging) {
