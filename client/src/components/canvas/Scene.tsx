@@ -46,9 +46,33 @@ export const Scene = ({ width, height }) => {
     >
       <Sprite
         image="./img/nike.png"
-        x={width / 2}
+        x={(width / 3) * 2}
         y={height / 2}
         scale={0.1}
+        anchor={0.5}
+        interactive={true}
+        pointerdown={onDragStart}
+        pointerup={onDragEnd}
+        pointerupoutside={onDragEnd}
+        pointermove={onDragMove}
+      />
+      <Sprite
+        image="./img/tv.png"
+        x={width / 3}
+        y={(height / 3) * 2}
+        scale={0.09}
+        anchor={0.5}
+        interactive={true}
+        pointerdown={onDragStart}
+        pointerup={onDragEnd}
+        pointerupoutside={onDragEnd}
+        pointermove={onDragMove}
+      />
+      <Sprite
+        image="./img/smile.png"
+        x={width / 3}
+        y={height / 3}
+        scale={0.08}
         anchor={0.5}
         interactive={true}
         pointerdown={onDragStart}
