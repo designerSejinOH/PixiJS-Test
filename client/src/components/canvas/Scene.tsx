@@ -1,44 +1,58 @@
-import { Stage, Container, Sprite, Text, useTick } from "@pixi/react";
+import { Stage, Sprite } from "@pixi/react";
+import { EventSystem } from "@pixi/events";
 import React, { useState } from "react";
+import * as PIXI from "pixi.js";
+
+interface Draggable extends PIXI.DisplayObject {
+  data: PIXI.InteractionData | null;
+  dragging: boolean;
+}
 
 export const Scene = ({ width, height }) => {
-  let i = 0;
+  const onDragStart = (event) => {
+    const sprite = event.currentTarget as Draggable;
+    sprite.alpha = 0.5;
+    sprite.data = event.data;
+    sprite.dragging = true;
+  };
 
-  const Bunny = () => {
-    // states
-    const [x, setX] = useState(0);
-    const [y, setY] = useState(0);
-    const [rotation, setRotation] = useState(0);
+  const onDragEnd = (event: PIXI.InteractionEvent) => {
+    const sprite = event.currentTarget as Draggable;
+    sprite.alpha = 1;
+    sprite.dragging = false;
+    sprite.data = null;
+  };
 
-    // custom ticker
-    useTick((delta) => {
-      i += 0.05 * delta;
-
-      setX(Math.sin(i) * 100);
-      setY(Math.sin(i / 1.5) * 100);
-      setRotation(-10 + Math.sin(i / 10 + Math.PI * 2) * 10);
-    });
-
-    return (
-      <Sprite
-        image="https://s3-us-west-2.amazonaws.com/s.cdpn.io/693612/IaUrttj.png"
-        anchor={0.5}
-        x={x}
-        y={y}
-        rotation={rotation}
-      />
-    );
+  const onDragMove = (event: PIXI.InteractionEvent) => {
+    const sprite = event.currentTarget as Draggable;
+    if (sprite.dragging) {
+      const newPosition = sprite.data!.getLocalPosition(sprite.parent);
+      sprite.x = newPosition.x;
+      sprite.y = newPosition.y;
+    }
   };
 
   return (
     <Stage
       width={width}
       height={height}
-      options={{ autoDensity: true, backgroundColor: 0x01262a }}
+      options={{ autoDensity: true, backgroundColor: 0xffffff }}
+      onMount={(app) => {
+        app.renderer.addSystem(EventSystem, "events2");
+      }}
     >
-      <Container x={width / 2} y={height / 2}>
-        <Bunny />
-      </Container>
+      <Sprite
+        image="./img/nike.png"
+        x={width / 2}
+        y={height / 2}
+        scale={0.1}
+        anchor={0.5}
+        interactive={true}
+        pointerdown={onDragStart}
+        pointerup={onDragEnd}
+        pointerupoutside={onDragEnd}
+        pointermove={onDragMove}
+      />
     </Stage>
   );
 };

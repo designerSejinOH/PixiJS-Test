@@ -1347,7 +1347,7 @@
   resolved "https://registry.yarnpkg.com/@pixi/display/-/display-7.2.3.tgz#da06c3bbe4a0ba5fbb6bf587570b602d8ae99a46"
   integrity sha512-bJGH9YpMCWCKKBNJ0Qkqg4BeprXx+tb0Dp1sxbWuqtgkWRHDmgMYZp55W6iZgrCq7ucW2rWXoZus4PWRM6BvZQ==
 
-"@pixi/events@7.2.3":
+"@pixi/events@7.2.3", "@pixi/events@^7.2.3":
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/@pixi/events/-/events-7.2.3.tgz#9e2236156f041a61b01bf0962c0af54a9d4e88f2"
   integrity sha512-+XKBEr3ZULdYlov0up7PrcwJ9+cDvI2y+S+2xWMR9EmKTKgsCfAF3WNh1EfDM8Eixa+5FXvHceepBbyIbH7lTw==
@@ -4547,7 +4547,7 @@ pinkie@^2.0.0:
   resolved "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==
 
-pixi.js@^7.2.3:
+pixi.js@5.5.3:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/pixi.js/-/pixi.js-7.2.3.tgz#2756f32887e156ddf89876718ab08acc49bf0e1e"
   integrity sha512-eYWCV+UeVdRnn3zIxgHXdetVv8EQ8veccvu0z06QM9fUa37+D2Jm7Vp3F+ox9E9RLmoNVhlezAIUaSG4m3BN3A==
